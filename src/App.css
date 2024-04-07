@@ -1,0 +1,164 @@
+
+.signin-button-container{
+ display: flex;
+ align-items: center;
+ justify-content: flex-end;
+ right: 10px;
+
+
+}
+
+
+
+.signin-button {
+  height: 40px;
+  padding: 0 10px;
+  background-color: #007bff;
+  border: none;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+} 
+
+.header {
+  align-self: flex-start; 
+  margin-bottom: 20px; 
+  position: fixed; 
+  top: 0; 
+  left: 0; 
+  width: 15%; 
+  background-color: transparent; 
+  padding: 20px; 
+  z-index: 1000; 
+}
+
+
+.top-bar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+
+.top-bar h1 {
+  display: inline-block;
+  -webkit-background-clip: text;
+  background-clip: text;
+  background-image: linear-gradient(to right, violet, indigo, blue, green, yellow, orange, red);
+  color: transparent;
+  
+}
+
+.search-box {
+  margin-bottom: 20px; 
+  display: flex;
+  width: 100%; 
+  max-width: 700px; 
+  
+}
+
+
+.search-box input[type="text"] {
+  width: 100%;
+  max-width: 400px;
+  height: 30px;
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+  
+}
+.search-box button {
+  height: 40px;
+  padding: 0 10px;
+  background-color: #007bff;
+  border: none;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.container {
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 30px;
+  background-color: #4497e4;
+  margin: 50px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.job-data {
+  margin-top: 200px; 
+}
+
+.job-card { 
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 450px;
+  width: 100%;
+  box-sizing: border-box;
+  margin: 20px;
+  background-color: #e8dbdb;
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px; 
+} 
+
+
+.job-logo {
+  width: 80px;
+  height: 80px;
+  margin-right: 20px;
+}
+
+.job-details {
+  flex-grow: 1;
+}
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  padding: 20px;
+  background-color: #e2e6ea;
+}
+ body{
+  background-color: rgb(148, 183, 243);
+  color: rgb(10, 9, 16);
+  
+ } 
+
+ 
+#root {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  
+}
+
+@media only screen and (max-width: 768px) {
+  .search-box {
+    flex-direction: column; 
+    align-items: stretch; 
+  }
+
+  .search-box input[type="text"] {
+    margin-bottom: 10px; 
+  }
+
+  .container {
+    margin: 20px; 
+  }
+
+  .job-card {
+    margin: 10px; 
+  }
+}
+
+
+
+
